@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 99f032bb893ae4599b8e9864b42fae06
+timeCreated: 1511245577
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Level3BossTeleport_0
+    21300002: Level3BossTeleport_1
+    21300004: Level3BossTeleport_2
+    21300006: Level3BossTeleport_3
+    21300008: Level3BossTeleport_4
+    21300010: Level3BossTeleport_5
+    21300012: Level3BossTeleport_6
+    21300014: Level3BossTeleport_7
+    21300016: Level3BossTeleport_8
+    21300018: Level3BossTeleport_9
+    21300020: Level3BossTeleport_10
+    21300022: Level3BossTeleport_11
+    21300024: Level3BossTeleport_12
+    21300026: Level3BossTeleport_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level3BossTeleport_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 12
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.51, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 13
+        width: 27
+        height: 40
+      alignment: 9
+      pivot: {x: 0.28, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 15
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 15
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 15
+        width: 38
+        height: 54
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_5
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 15
+        width: 42
+        height: 65
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_6
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 15
+        width: 41
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_7
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 15
+        width: 25
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_8
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 12
+        width: 16
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_9
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 13
+        width: 6
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_10
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 13
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_11
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 13
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_12
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 12
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Level3BossTeleport_14
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 12
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

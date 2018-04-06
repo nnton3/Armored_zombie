@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 7dbb8943473f64b14b0b55f07e61e5df
+timeCreated: 1521878936
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: InvokerTransmutation_0
+    21300002: InvokerTransmutation_1
+    21300004: InvokerTransmutation_2
+    21300006: InvokerTransmutation_3
+    21300008: InvokerTransmutation_4
+    21300010: InvokerTransmutation_6
+    21300012: InvokerTransmutation_8
+    21300014: InvokerTransmutation_11
+    21300016: InvokerTransmutation_13
+    21300018: InvokerTransmutation_14
+    21300020: InvokerTransmutation_15
+    21300022: InvokerTransmutation_16
+    21300024: InvokerTransmutation_18
+    21300026: InvokerTransmutation_20
+    21300028: InvokerTransmutation_21
+    21300030: InvokerTransmutation_22
+    21300032: InvokerTransmutation_23
+    21300034: InvokerTransmutation_24
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: InvokerTransmutation_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 18
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 17
+        width: 25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.65, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 15
+        width: 31
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 17
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: 0.46, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 17
+        width: 48
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_8
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 17
+        width: 61
+        height: 21
+      alignment: 9
+      pivot: {x: 0.45, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_11
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 18
+        width: 74
+        height: 20
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 17
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_14
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 17
+        width: 11
+        height: 20
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 17
+        width: 8
+        height: 22
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_16
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 15
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: 0.77, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_18
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 16
+        width: 20
+        height: 22
+      alignment: 9
+      pivot: {x: 0.83, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_20
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 18
+        width: 14
+        height: 22
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_21
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 15
+        width: 16
+        height: 29
+      alignment: 9
+      pivot: {x: 0.78, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_22
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 14
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.82, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_23
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 13
+        width: 20
+        height: 29
+      alignment: 9
+      pivot: {x: 0.83, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: InvokerTransmutation_24
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 13
+        width: 12
+        height: 25
+      alignment: 9
+      pivot: {x: 0.72, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

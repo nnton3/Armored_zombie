@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6330c361cc2e84db483079f632208975
+timeCreated: 1504775108
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Return of Ganon
+  fontNames:
+  - Return of Ganon
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
