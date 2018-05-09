@@ -152,6 +152,7 @@
      <Compile Include="Assets\Scripts\Effects\FadeEffect_En_Dis.cs" />
      <Compile Include="Assets\Scripts\Enemies\Aborigen.cs" />
      <Compile Include="Assets\Scripts\Enemies\Archer.cs" />
+     <Compile Include="Assets\Scripts\Enemies\Enemy_invokedZomby.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy_zombie.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy_zombieBrian.cs" />
      <Compile Include="Assets\Scripts\Enemies\Invoker.cs" />
