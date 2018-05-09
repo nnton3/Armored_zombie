@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{35E2B4C1-3759-1B56-33FF-48755F1A0430}</ProjectGuid>
+    <ProjectGuid>{0E7929C4-F299-57A0-779A-6B118187E456}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,142 +51,69 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineConfiner.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineFramingTransposer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineSameAsFollowObject.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\AxisState.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CameraState.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineComponentBase.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\Predictor.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\SplineHelpers.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\PostFX\CinemachinePostFX.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Timeline\CinemachineMixer.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Timeline\CinemachineShot.cs" />
-     <Compile Include="Assets\AssetStore\Cinemachine\Timeline\CinemachineTrack.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\AdLoader.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\AdPosition.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\AdRequest.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\AdSize.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\BannerView.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\Gender.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\InterstitialAd.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\Mediation\MediationExtras.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\MobileAds.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\NativeExpressAdView.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\Reward.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\DummyClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\IAdLoaderClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\IBannerClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\IInterstitialClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\IMobileAdsClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Common\Utils.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\MobileAdsClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\Android\Utils.cs" />
-     <Compile Include="Assets\AssetStore\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_LaunchURL.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_LoadingScreen.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_LoadScene.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_LoadSceneTrigger.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_PressAnyKey.cs" />
-     <Compile Include="Assets\AssetStore\Looader\Scripts\LO_SelectStyle.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\LaunchURL.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\PBFilled.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\ProgressBar.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\RatingSystem.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\SwitchAnim.cs" />
-     <Compile Include="Assets\AssetStore\Modern UI Pack\Scripts\ToggleAnim.cs" />
-     <Compile Include="Assets\Scripts\Effects\FadeEffect_En_Dis.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Aborigen.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Archer.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Enemy_invokedZomby.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Enemy_zombie.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Enemy_zombieBrian.cs" />
-     <Compile Include="Assets\Scripts\Enemies\Invoker.cs" />
-     <Compile Include="Assets\Scripts\Enemies\miniBossOgre\miniBossOgr.cs" />
-     <Compile Include="Assets\Scripts\Enemies\ModifyAborigenFast.cs" />
-     <Compile Include="Assets\Scripts\Enemies\ModifyAborigenFat.cs" />
-     <Compile Include="Assets\Scripts\General Mechanics\DangerArea.cs" />
-     <Compile Include="Assets\Scripts\General Mechanics\Flip.cs" />
-     <Compile Include="Assets\Scripts\General Mechanics\Interfaces.cs" />
-     <Compile Include="Assets\Scripts\General Mechanics\Transition.cs" />
-     <Compile Include="Assets\Scripts\General Mechanics\Unit.cs" />
-     <Compile Include="Assets\Scripts\Interface\EPBar.cs" />
-     <Compile Include="Assets\Scripts\Interface\HPBar.cs" />
-     <Compile Include="Assets\Scripts\Interface\Pointer.cs" />
-     <Compile Include="Assets\Scripts\Level3Boss\Level3Boss.cs" />
-     <Compile Include="Assets\Scripts\Level3Boss\Level3Portal.cs" />
-     <Compile Include="Assets\Scripts\Level3Boss\Puddle.cs" />
-     <Compile Include="Assets\Scripts\Player\Player.cs" />
-     <Compile Include="Assets\Scripts\Player\Аrrow.cs" />
-     <Compile Include="Assets\Scripts\Portal.cs" />
-     <Compile Include="Assets\Scripts\TestingScripts\Banner.cs" />
-     <Compile Include="Assets\Scripts\TestingScripts\HomyReplics.cs" />
-     <Compile Include="Assets\Scripts\TestingScripts\Laser.cs" />
-     <Compile Include="Assets\Scripts\TestingScripts\VideoAd.cs" />
-     <Compile Include="Assets\Scripts\ThrustProgressBar.cs" />
-     <Compile Include="Assets\Scripts\UISwap.cs" />
-     <Compile Include="Assets\Standart Assets\GameManager.cs" />
-     <Compile Include="Assets\Standart Assets\Menu.cs" />
-     <None Include="Assets\AssetStore\Modern UI Pack\Read Me.txt" />
-     <None Include="Assets\AssetStore\Cinemachine\ReleaseNotes.txt" />
-     <None Include="Assets\AssetStore\Looader\Licence.txt" />
- <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\ArmoredZombie\Scripts\Enemy_zombieBrian.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineConfiner.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineFramingTransposer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineSameAsFollowObject.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\AxisState.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CameraState.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineComponentBase.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\Predictor.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\SplineHelpers.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\PostFX\CinemachinePostFX.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Timeline\CinemachineShot.cs" />
+     <Compile Include="Assets\Hero+zombie\AssetStore\Cinemachine\Timeline\CinemachineTrack.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\DangerArea.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Enemy_zombie.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Flip.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Interface\HPBar.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Interfaces.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Player.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Unit.cs" />
+     <Compile Include="Assets\Hero+zombie\Scripts\Аrrow.cs" />
+     <None Include="Assets\Hero+zombie\AssetStore\Cinemachine\ReleaseNotes.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -253,23 +180,11 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Google.IOSResolver_v1.2.48.0">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStore/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.48.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandlerImpl_v1.2.48.0">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStore/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.48.0.dll</HintPath>
- </Reference>
- <Reference Include="Google.VersionHandler">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStore/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
- </Reference>
- <Reference Include="Google.JarResolver_v1.2.48.0">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStore/PlayServicesResolver/Editor/Google.JarResolver_v1.2.48.0.dll</HintPath>
- </Reference>
  <Reference Include="AssetStoreToolsExtra">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
+ <HintPath>/Users/Anton/Desktop/GameMechanics/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll</HintPath>
  </Reference>
  <Reference Include="AssetStoreTools">
- <HintPath>/Users/Anton/Desktop/StoneOfAdventure/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+ <HintPath>/Users/Anton/Desktop/GameMechanics/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/Anton/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

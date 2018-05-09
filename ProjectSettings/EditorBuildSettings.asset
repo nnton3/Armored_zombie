@@ -6,8 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 66d2fb8f48a634c479c739e63ef58199
-  - enabled: 1
-    path: Assets/Scenes/Level4.unity
-    guid: 1255ab9caa8824cc8b49ccdcf45fd149
+    path: Assets/Hero+zombie/Scenes/Test_scene.unity
+    guid: 8ecf3aa7b39d54553b4347be8acb71b2

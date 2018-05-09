@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Hero+zombie/Scenes/New Scene.unity
+- path: Assets/ArmoredZombie/Hero+zombie/Scenes/CrazyCash.unity
   isLoaded: 1
   isActive: 1

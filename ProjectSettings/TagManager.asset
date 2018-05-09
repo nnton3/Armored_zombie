@@ -4,16 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ReversTrigger
-  - AlertTrigger
   - Enemy
-  - ResSlider
-  - HPSlider
-  - Arrow
-  - Quit
-  - Portal
   - Puddle
-  - PlayerArrow
   layers:
   - Default
   - TransparentFX
@@ -25,7 +17,7 @@ TagManager:
   - 
   - Player
   - Enemy
-  - Arrow
+  - 
   - 
   - 
   - 
@@ -48,12 +40,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: background
-    uniqueID: 1199028967
-    locked: 0
-  - name: Units
-    uniqueID: 3032739537
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
