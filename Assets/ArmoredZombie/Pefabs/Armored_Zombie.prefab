@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 114462228187515302}
   - component: {fileID: 114599399488166144}
   m_Layer: 4
-  m_Name: ZombieBrian
+  m_Name: Armored_Zombie
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
