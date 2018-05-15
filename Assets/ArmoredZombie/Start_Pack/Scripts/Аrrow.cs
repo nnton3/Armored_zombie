@@ -21,6 +21,7 @@ public class Аrrow : Unit {
 	}
 
 	public void SetDirection (float direction) {
+		flipParam = direction;
 		input = direction;
 	}
 
