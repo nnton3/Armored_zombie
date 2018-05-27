@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyReposit", "Assembly-CSharp.csproj", "{84E546C8-B538-8494-69F1-672748C8F766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyReposit", "Assembly-CSharp-Editor.csproj", "{647FC7CF-0945-CBCB-2354-B75375DA7DD6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,10 +13,6 @@ Global
 		{84E546C8-B538-8494-69F1-672748C8F766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84E546C8-B538-8494-69F1-672748C8F766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84E546C8-B538-8494-69F1-672748C8F766}.Release|Any CPU.Build.0 = Release|Any CPU
-		{647FC7CF-0945-CBCB-2354-B75375DA7DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{647FC7CF-0945-CBCB-2354-B75375DA7DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{647FC7CF-0945-CBCB-2354-B75375DA7DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{647FC7CF-0945-CBCB-2354-B75375DA7DD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
